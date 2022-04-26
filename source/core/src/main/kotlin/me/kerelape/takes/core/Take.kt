@@ -5,5 +5,5 @@ interface Take {
     /**
      * @return Response for the [request]
      */
-    suspend fun response(request: Packet): Packet
+    suspend fun response(request: Request): Response
 }

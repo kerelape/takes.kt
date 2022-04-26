@@ -10,7 +10,7 @@ interface Packet {
     /**
      * All lines above the [body]
      */
-    suspend fun head(): Iterable<String>
+    suspend fun head(): Iterable<Pair<String, String>>
 
     /**
      * Packet body
